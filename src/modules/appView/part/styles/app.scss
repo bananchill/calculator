@@ -1,0 +1,117 @@
+.main {
+  margin-top: 21rem;
+  margin-left: 4rem;
+
+  .title {
+    width: 753px;
+
+    .title__calc {
+      font-size: 54px;
+      line-height: 48.6px;
+      font-family: "Nekst Black";
+    }
+  }
+
+  .application {
+    display: flex;
+
+    .send_application {
+      color: var(--mainText100);
+      border-radius: 40px;
+      padding: 7px 16px 11px;
+      height: 60px;
+      text-decoration: none;
+      border: none;
+      right: 5%;
+      position: absolute;
+      bottom: 27.5%;
+      background: var(--scroll60);
+
+      span {
+        font-family: 'Nekst-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 36px;
+      }
+    }
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .main {
+    margin-top: 6.4rem;
+    margin-left: 3.6rem;
+
+    .application {
+      .send_application {
+        right: 2%;
+        bottom: 52.5%;
+        width: 29vw;
+      }
+    }
+  }
+
+}
+@media (min-width: 1120px) and (max-width: 1439px) {
+  .main {
+    margin-top: 6.4rem;
+    margin-left: 3.6rem;
+    .application {
+      .send_application {
+        bottom: 50%;
+        right: 5%;
+        width: 26vw;
+
+      }
+    }
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+  .main {
+    margin-top: 6.4rem;
+    margin-left: 3.6rem;
+
+    .application {
+      flex-direction: column;
+
+      .send_application {
+        bottom: 5%;
+        right: 65%;
+
+
+      }
+    }
+
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .main {
+    margin-top: 4rem;
+    margin-left: 2.1rem;
+
+    .title {
+      width: 90%;
+    }
+
+    .application {
+      flex-direction: column;
+
+      .send_application {
+        bottom: 3%;
+        width: 90%;
+
+        span {
+          font-size: 22px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+

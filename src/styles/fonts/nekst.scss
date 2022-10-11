@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Nekst Semi';
+  src: url('@/assets/fonts/Nekst/Nekst-SemiBold.eot');
+  src: local('Nekst Semi Bold'), local('Nekst-SemiBold'),
+  url('@/assets/fonts/Nekst/Nekst-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-SemiBold.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-SemiBold.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst';
+  src: url('@/assets/fonts/Nekst/Nekst-Regular.eot');
+  src: local('Nekst'), local('Nekst-Regular'),
+  url('@/assets/fonts/Nekst/Nekst-Regular.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Regular.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Regular.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst Black';
+  src: url('@/assets/fonts/Nekst/Nekst-Black.eot');
+  src: local('Nekst Black'), local('Nekst-Black'),
+  url('@/assets/fonts/Nekst/Nekst-Black.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Black.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Black.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst';
+  src: url('@/assets/fonts/Nekst/Nekst-Thin.eot');
+  src: local('Nekst Thin'), local('Nekst-Thin'),
+  url('@/assets/fonts/Nekst/Nekst-Thin.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Thin.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Thin.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst';
+  src: url('@/assets/fonts/Nekst/Nekst-Bold.eot');
+  src: local('Nekst Bold'), local('Nekst-Bold'),
+  url('@/assets/fonts/Nekst/Nekst-Bold.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Bold.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Bold.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst';
+  src: url('@/assets/fonts/Nekst/Nekst-Medium.eot');
+  src: local('Nekst Medium'), local('Nekst-Medium'),
+  url('@/assets/fonts/Nekst/Nekst-Medium.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Medium.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Medium.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nekst';
+  src: url('@/assets/fonts/Nekst/Nekst-Light.eot');
+  src: local('Nekst Light'), local('Nekst-Light'),
+  url('@/assets/fonts/Nekst/Nekst-Light.eot?#iefix') format('embedded-opentype'),
+  url('@/assets/fonts/Nekst/Nekst-Light.woff2') format('woff2'),
+  url('@/assets/fonts/Nekst/Nekst-Light.woff') format('woff'),
+  url('@/assets/fonts/Nekst/Nekst-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+

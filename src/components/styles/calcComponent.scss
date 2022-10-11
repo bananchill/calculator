@@ -1,0 +1,278 @@
+.calc {
+
+  .input_data {
+    display: grid;
+
+    .cost .contribution .leasing {
+      height: 119px;
+      margin-right: 2rem;
+    }
+
+    .block_input {
+      position: relative;
+
+      .hint {
+        span, .input {
+          font-family: 'Nekst Black';
+          font-style: normal;
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 36px;
+        }
+
+        span {
+          position: absolute;
+        }
+
+        .input {
+          padding-left: 1rem;
+        }
+      }
+    }
+
+  }
+
+  .payed {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .pay_span {
+      margin-top: 0.8rem;
+      font-family: 'Nekst-Black';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 54px;
+      line-height: 90%;
+    }
+  }
+
+  .text_calc {
+    font-family: 'Gilroy-LightItalic';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .calc {
+    .input_data {
+      margin-top: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3.2rem;
+      width: 29vw;
+
+      .cost .contribution .leasing {
+        width: 29vw;
+        margin-right: 2rem;
+      }
+
+      .block_currency {
+        span {
+          top: 37%;
+          left: 90%;
+        }
+      }
+
+      .block_percent_input {
+        .percent {
+          top: 37%;
+          left: 85%;
+        }
+      }
+
+      .block_count_month {
+        .month {
+          top: 37%;
+          left: 75%;
+        }
+      }
+    }
+
+    .payed {
+      margin-top: 4rem;
+      justify-content: space-between;
+    }
+
+    .text_calc {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 1120px) and (max-width: 1439px) {
+  .calc {
+
+    .input_data {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 3.2rem;
+      margin-top: 3.2rem;
+
+      .cost .contribution .leasing {
+        width: 26vw;
+      }
+
+      .block_currency {
+        span {
+          top: 37%;
+          left: 80%;
+        }
+      }
+
+      .block_percent_input {
+        .percent {
+          top: 37%;
+          left: 72.5%;
+        }
+      }
+
+      .block_count_month {
+        .month {
+          top: 37%;
+          left: 75%;
+        }
+      }
+    }
+
+    .payed {
+      margin-top: 4rem;
+    }
+
+    .text_calc {
+      font-size: 16px;
+    }
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+  .calc {
+
+    .input_data {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 3.2rem;
+
+      .cost .contribution .leasing {
+        width: 90%;
+      }
+
+      .block_currency {
+        span {
+          top: 50%;
+          left: 85%;
+        }
+      }
+
+      .block_percent_input {
+        .percent {
+          top: 50%;
+          left: 82.5%;
+        }
+      }
+
+      .block_count_month {
+        .month {
+          top: 50%;
+          left: 80%;
+        }
+      }
+
+
+    }
+
+    .payed {
+      margin-top: 3.7rem;
+    }
+
+    .text_calc {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .calc {
+
+    .input_data {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 3.2rem;
+
+      .cost .contribution .leasing {
+        width: 22vw;
+      }
+
+      .block_currency {
+        span {
+          top: 50%;
+          left: 85%;
+        }
+      }
+
+      .block_percent_input {
+        .percent {
+          top: 50%;
+          left: 80%;
+        }
+      }
+
+      .block_count_month {
+        .month {
+          top: 50%;
+          left: 78.5%;
+        }
+      }
+
+
+    }
+
+    .payed {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 1.6rem;
+
+      .pay_span {
+        font-family: 'Nekst-Black';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 20px;
+      }
+
+      .month_payed {
+        margin-top: 2.9rem;
+      }
+    }
+
+    .text_calc {
+      margin-top: 0.2rem;
+      font-family: 'Gilroy-LightItalic';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (min-width: 495px) and (max-width: 600px) {
+  .calc {
+    .contribution {
+      .block_input {
+        .block_percent_input {
+          .percent {
+            top: 50%;
+            left: 80%;
+          }
+        }
+      }
+    }
+
+    .block_count_month {
+      .month {
+        top: 50%;
+        left: 80%;
+      }
+    }
+  }
+}
