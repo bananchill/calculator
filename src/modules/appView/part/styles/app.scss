@@ -47,7 +47,7 @@
     .application {
       .send_application {
         right: 2%;
-        bottom: 52.5%;
+        bottom: 50vh;
         width: 29vw;
       }
     }
@@ -60,13 +60,11 @@
     margin-left: 3.6rem;
     .application {
       .send_application {
-        bottom: 50%;
+        bottom: 40%;
         right: 5%;
         width: 26vw;
-
       }
     }
-
   }
 }
 
@@ -75,16 +73,21 @@
     margin-top: 6.4rem;
     margin-left: 3.6rem;
 
-    .application {
-      flex-direction: column;
-
-      .send_application {
-        bottom: 5%;
-        right: 65%;
-
-
-      }
-    }
+       .application {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+         .send_application {
+         margin-top: 2rem;
+         margin-left:2rem;
+           bottom: 3%;
+           width: 90%;
+           position:relative;
+           span {
+             font-size: 22px;
+             line-height: 20px;
+           }
+         }
+       }
 
   }
 }
@@ -99,12 +102,14 @@
     }
 
     .application {
-      flex-direction: column;
-
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
       .send_application {
+      margin-top: 2rem;
+      margin-left:2rem;
         bottom: 3%;
         width: 90%;
-
+        position:relative;
         span {
           font-size: 22px;
           line-height: 20px;
